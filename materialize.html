@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./materlize/materialize/css/materialize.min.css" />
     <link rel="stylesheet" href="./materlize/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="./website_intan/img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./faviconnew/favicon-32x32.png" />
   </head>
   <body id="home" class="scrollspy">
     <div class="navbar-fixed">
@@ -187,11 +187,12 @@
             </ul>
           </div>
           <div class="col m6 s12" data-aos="fade-up" data-aos-duration="1000">
-            <form action="">
+            <form name="binggie-contact-form" action="">
+
               <div class="card-panel">
                 <h5>Dimohon Untuk Mengisi Formulir Ini</h5>
                 <div class="input-field">
-                  <input type="text" name="nama" id="nama" required class="validate">
+                  <input type="text" name="name" id="nama" required class="validate">
                   <label for="nama">Nama</label>
                 </div>
                 <div class="input-field">
@@ -199,7 +200,7 @@
                   <label for="email">email</label>
                 </div>
                 <div class="input-field">
-                  <input type="Number" name="Number" id="Number">
+                  <input type="Number" name="phone" id="Number">
                   <label for="Number">Nomor Telepon</label>
                 </div>
                 <div class="input-field">
@@ -207,7 +208,8 @@
                   <label for="massage">Pesan</label>
                 </div>
               </div>
-              <button type="submit" class="btn grey darken-3">Kirim</button>
+          <a href="" onclick="M.toast({html: 'Pesan anda sudah terkirim'})"><button type="submit" class="btn grey darken-3">Kirim</button></a>
+              
             </form>
           </div>
         </div>
@@ -218,6 +220,7 @@
       <p class="flow-text">Binggie Rashel. Copyright 2022.</p>
     </footer>
 
+   
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./materlize/materialize/js/materialize.min.js"></script>
     <script src="./materlize/main.js"></script>

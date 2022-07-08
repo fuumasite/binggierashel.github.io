@@ -29,3 +29,13 @@ M.Carousel.init(carousel, {
 AOS.init({
   once: true,
 });
+
+const scriptURL = "https://script.google.com/macros/s/AKfycbxp0eVVLCQtkDLPxWEZUTVOczPhZ5P3RAmSm97VbmScbKIsbEk-PaQrF7ilL1nrHVGe/exec";
+const form = document.forms["binggie-contact-form"];
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => console.log("Success!", response))
+    .catch((error) => console.error("Error!", error.message));
+});
