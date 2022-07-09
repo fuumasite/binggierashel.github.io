@@ -1,0 +1,181 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+}
+
+.bg-offcanvas {
+  background-color: #0099ff !important;
+}
+
+.navbar-brand,
+.offcanvas-title {
+  font-weight: 500 !important;
+  color: white !important;
+}
+
+.navbar ul li a {
+  color: white !important;
+}
+
+.navbar-brand:hover {
+  color: rgb(65, 65, 65) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  color: rgb(65, 65, 65) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-jumbotron,
+.bg-navbar {
+  background-color: #0099ff !important;
+}
+
+.jumbotron {
+  height: 100%;
+  padding-top: 50px;
+}
+
+.jumbotron h1 {
+  font-weight: 600;
+  font-size: 55px;
+  color: white;
+}
+.about h1,
+.skills h1,
+.contact h1 {
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.navbar-toggler {
+  color: white !important;
+  background-color: white !important;
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(65, 65, 65, 0.39) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .btn-close {
+  background-color: white !important;
+}
+
+.jumbotron p {
+  font-weight: 400;
+  padding: 20px 0;
+  color: rgb(247, 247, 247);
+}
+.about p,
+.skills p {
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.about h3 {
+  font-weight: bold;
+}
+
+.jumbotron img {
+  padding: 10px 0;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.hobby {
+  float: right;
+}
+
+.padding {
+  margin: 280px 0;
+}
+
+.skills i,
+.skills h5 {
+  display: inline-block;
+}
+
+.html {
+  margin-left: 20px;
+}
+
+.css {
+  margin-left: 10px;
+}
+
+.js {
+  margin-left: 20px;
+}
+
+.php {
+  margin-left: 5px;
+}
+
+.git {
+  margin-left: 20px;
+}
+
+.bg-php {
+  background-color: rgb(27, 2, 168) !important;
+}
+
+.bg-git {
+  background-color: rgb(31, 31, 31) !important;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  background-color: #0099ff;
+  height: auto;
+
+  color: white;
+}
+
+.btn-color {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+footer h1 {
+  font-size: 30px;
+}
+
+footer h1,
+footer li,
+footer i,
+footer li,
+footer p {
+  margin-left: 20px;
+}
+
+footer li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+}
+
+footer li a:hover {
+  color: rgb(70, 70, 70) !important;
+  transition: all 0.3s ease-in-out;
+}
+footer a:hover {
+  color: rgb(70, 70, 70) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+footer i {
+  padding: 20px 0;
+  margin-right: 20px;
+}

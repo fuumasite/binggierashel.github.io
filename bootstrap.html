@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Framework</title>
+    <link rel="stylesheet" href="./bootstrap web/style.css" />
+    <link rel="stylesheet" href="./bootstrap-5.2.0/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./faviconnew/favicon-32x32.png" type="image/x-icon">
+    
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md  bg-navbar">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#">Binggie.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas bg-offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Binggie.</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jumbotron -->
+    <div class="jumbotron header bg-jumbotron">
+      <div class="container-lg " data-aos="fade-in" data-aos-duration="2000">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h1>Digital marketing that delivers results</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate aliquam fuga eius assumenda sunt aspernatur. Esse, dolorem! Ipsam eligendi sapiente, excepturi error vero mollitia enim?</p>
+            <a href="https://www.instagram.com/binggierashel"><button type="button" class="btn btn-color btn-lg">Follow Me</button></a>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img src="./bootstrap web/img/1.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,128L34.3,160C68.6,192,137,256,206,266.7C274.3,277,343,235,411,208C480,181,549,171,617,170.7C685.7,171,754,181,823,165.3C891.4,149,960,107,1029,112C1097.1,117,1166,171,1234,192C1302.9,213,1371,203,1406,197.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+      </svg>
+    </div>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container-lg"  >
+        <h1>About Me</h1>
+        <div class="row">
+          <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisiupg elit. Laborum aut consectetur temporibus ipsum et inventore est eum quae! Repudiandae atque fuga quasi dolores dolorem dolor.</p>
+            <p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">Push Me</button>
+            </p>
+            <div style="min-height: 120px">
+              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body" style="width: 350px">
+                  Hello Everyone !!<br />
+                  My name is Binggie Rashel Prasetyo, I am 16 years old, I am a web developer
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
+            <img src="./bootstrap web/img/2.jpg" class="img-fluid" alt="" />
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-lg-12" >
+              <h3 class="text-center mt-5">My Hobby</h3>
+            </div>
+          </div>
+          
+          <div class="card text-center  mt-5 shadow-sm p-3 mb-5 bg-body rounded " style="width: 18rem" data-aos="fade-right" data-aos-duration="2000">
+            <div class="card-body">
+              <i class="fas fa-laptop-code fa-3x mb-3"></i>
+              <h5 class="card-title">Coding</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis rem a ratione delectus numquam, eligendi perspiciatis corporis quidem tenetur minus.</p>
+            </div>
+          </div>
+          <div class=" hobby card text-center  mt-1 shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card-body">
+              <i class="fas fa-gamepad fa-3x mb-3"></i>
+              <h5 class="card-title">Play Game</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam est autem cupiditate aut dolores ducimus asperiores eum nam optio molestias.</p>
+            </div>
+         </div>
+       <div class="padding"></div>
+         <div class=" hobby2 card text-center  mt-5 shadow-sm p-3 mb-5 bg-body rounded" style="width: 18rem" data-aos="fade-right" data-aos-duration="2000">
+          <div class="card-body">
+            <i class="fas fa-guitar fa-3x mb-3"></i>
+            <h5 class="card-title">Playing Guitar</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A non quas ab expedita? Magnam, reiciendis.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!--skills-->
+    <section id="skills" class="skills">
+      <div class="container-lg">
+        <h1>My Skills</h1>
+        <div class="row">
+          <div class="col-md-5 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
+            <h2 class="mt-5">Study</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum quaerat in, quas, aperiam repellat maxime molestiae quod quos ipsa recusandae provident nisi distinctio, reprehenderit ut hic aspernatur. Maxime nisi tempora inventore ullam minus. Nihil quisquam accusamus quas totam aperiam expedita quasi error eveniet provident! Odit, non. Amet sequi optio voluptates excepturi. Harum itaque fugiat ducimus doloribus officia maiores inventore corporis libero nulla animi nobis sit iure eveniet porro quis sed soluta, suscipit delectus ab velit pariatur eligendi! Sequi perferendis aperiam architecto illum cum ipsa eligendi? Cupiditate similique maiores fugit doloremque quis corrupti aut quod repudiandae accusantium, reprehenderit fuga voluptas itaque eos voluptates, aliquid ipsum minus nostrum quaerat molestias recusandae. Voluptatibus ex dolore repellat, numquam ea quidem quia accusamus quae pariatur officiis porro impedit vitae expedita distinctio saepe mollitia similique! Architecto.</p>
+          </div>
+       
+          <div class="col-md-7 col-sm-12" data-aos="fade-left" data-aos-duration="2000">
+              <h2 class="mt-5">Skills</h2>
+              <i class="fab fa-html5 fa-3x mt-3"></i>
+              <h5 class="html">HTML5</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger " role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <i class="fab fa-css3 fa-3x mt-3"></i>
+              <h5 class="css">CSS3</h5>
+              <div class="progress">
+                <div class="progress-bar bg-info  " role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <i class="fab fa-js fa-3x mt-3"></i>
+              <h5 class="js">Javascript</h5>
+              <div class="progress">
+                <div class="progress-bar bg-warning  " role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <i class="fab fa-php fa-3x mt-3"></i>
+              <h5 class="php">PHP</h5>
+              <div class="progress">
+                <div class="progress-bar bg-php" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <i class="fab fa-git-alt fa-3x mt-3"></i>
+              <h5 class="git">Git</h5>
+              <div class="progress">
+                <div class="progress-bar bg-git" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--contact-->
+    <section id="contact" class="contact">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
+            <img src="./bootstrap web/img/4.jpg" class="img-fluid" alt="">
+          </div>
+        <div class="col-md-6 col-sm-12">
+          <h1 class="mb-5">Contact me and give your comment</h1>
+          <form name="bootstrap-contact-form" class="row g-3" data-aos="fade-up" data-aos-duration="2000">
+            <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
+              <strong>Terimkasih!</strong> Pesan anda sudah saya terima
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3">
+                  <label for="nama" class="form-label ">Name</label>
+                  <input type="name" name="name" class="form-control" id="nama" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text">Please fill your name</div>
+                </div>
+                </div>
+                  <div class="col-md-6">
+                  <label for="email" class="form-label ">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="comment"  class="form-label">comment</label>
+                    <div class="form-floating">
+                      <textarea class="form-control" name="comment" placeholder="Leave a comment here" id="comment" style="height: 100px"></textarea>
+                     
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary btn-kirim ">Send</button>
+                    
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                      Loading...
+                    </button>
+                  </div>
+                </div>
+            </form>
+           
+        </div>
+        </div>
+      </div>
+    </section>
+
+<!--footer-->
+
+<footer>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ffffff" fill-opacity="1" d="M0,128L34.3,160C68.6,192,137,256,206,266.7C274.3,277,343,235,411,208C480,181,549,171,617,170.7C685.7,171,754,181,823,165.3C891.4,149,960,107,1029,112C1097.1,117,1166,171,1234,192C1302.9,213,1371,203,1406,197.3L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path>
+  </svg>
+  </svg>
+  <div class="row">
+    <div class="col-lg-5">
+      <h1 class="">I am make with love, effort, and time with Bootstrap</h1>
+    </div>
+    <div class="col-lg-4">
+ 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+     
+    </div>
+    <div class="col-lg-3">
+      
+      <a href="https://www.instagram.com/binggierashel"> <i class="fab fa-instagram fa-3x"></i></a>
+      <a href="https://github.com/fuumasite"><i class="fab fa-github fa-3x"></i></a>
+      <a href="#"> <i class="fas fa-envelope fa-3x"></i></a>
+      <p>Dont forget to follow me</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <p class="text-center mt-5 copyright">Binggie Rashel Copyright 2022.</p>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/fb46160908.js" crossorigin="anonymous"></script>
+    <script src="./bootstrap web/main.js"></script>
+    <script src="./bootstrap-5.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
