@@ -149,6 +149,10 @@ footer {
   background-color: rgb(255, 255, 255) !important;
 }
 
+.card-color {
+  color: white !important;
+}
+
 .btn-color:hover {
   background-color: rgb(70, 70, 70) !important;
   transition: all 0.3s ease-in-out;
