@@ -55,13 +55,17 @@ body {
   font-size: 55px;
 }
 
-.navbar-toggler {
+.nav-toggle {
   color: white !important;
-  background-color: white !important;
 }
 
-.navbar-toggler:hover {
-  background-color: rgba(65, 65, 65, 0.39) !important;
+.btn:hover {
+  background-color: rgb(70, 70, 70) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-toggle:hover {
+  color: rgba(65, 65, 65) !important;
   transition: all 0.3s ease-in-out;
 }
 
@@ -143,6 +147,15 @@ footer {
 
 .btn-color {
   background-color: rgb(255, 255, 255) !important;
+}
+
+.btn-color:hover {
+  background-color: rgb(70, 70, 70) !important;
+  transition: all 0.3s ease-in-out;
+}
+.btn-color:hover {
+  color: white !important;
+  transition: all 0.3s ease-in-out;
 }
 
 footer h1 {
